@@ -1,6 +1,6 @@
 <header>
     <div class="FitHome">
-        <a href="index.html">
+        <a href="index.php">
             <img src="Img/logo_startp-removebg-preview.png" alt="Logo FitHome" width="75px">
             <p class="Fit-Home">Fit-Home</p>
         </a>

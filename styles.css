@@ -129,3 +129,12 @@ footer
     margin-top: 15px;
     text-align: justify;
 }
+
+/*coach.php*/
+.textHome
+{
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 17px;
+}
