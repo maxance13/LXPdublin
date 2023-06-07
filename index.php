@@ -13,7 +13,7 @@
     <?php require('.\header.php') ?>
 
     <main class="mainHome">
-        <p class="Home_Rep">> <a href="index.html" class="Home_Rep1"> Home</a></p>
+        <p class="Home_Rep">> <a href="index.php" class="Home_Rep1"> Home</a></p>
 
         <div class="TitleHome">
             <h1>Who are we?</h1>
