@@ -7,7 +7,7 @@
     </div>
     <nav>
         <ul>
-            <a href="#" class="NavPage"><li>Coach</li></a>
+            <a href="coach.php" class="NavPage"><li>Coach</li></a>
             <a href="#" class="NavPage"><li>Contact</li></a>
             <a href="#"><li><img src="Img/icons8-utilisateur-24.png" alt="User Page"></li></a>
         </ul>
