@@ -23,10 +23,6 @@
         </div>
 
         <div class="Box_Coach">
-            <div class="Button_Switch">
-                <img class="previous" src="Img/icons8-suivant-67.png" alt="previous" width="3%"> 
-                <img src="Img/icons8-suivant-67.png" alt="next" width="3%"> 
-            </div>
             <div class="Image_Coach">
                 <table class="Tab_Coach">
                     <tr>
@@ -35,9 +31,9 @@
                         <td><img src="Img/coach3.png" alt="coach 3" width="100%" height="350rem"></td>
                     </tr>
                     <tr>
-                        <td><a href="*" class="name_coach">name_coach</a></td>
-                        <td><a href="*" class="name_coach">name_coach</a></td>
-                        <td><a href="*" class="name_coach">name_coach</a></td>
+                        <td class="Button_Coach"><a href="*" class="name_coach">name_coach</a></td>
+                        <td class="Button_Coach"><a href="*" class="name_coach">name_coach</a></td>
+                        <td class="Button_Coach"><a href="*" class="name_coach">name_coach</a></td>
                     </tr>
                 </table>
             </div>
