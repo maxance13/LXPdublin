@@ -241,6 +241,10 @@ footer
     box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
     border-radius: 26px;
     max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
   
   .form {
@@ -367,3 +371,73 @@ footer
     box-shadow: 0px 0px 0px 2px #FFFFFF, 0px 0px 0px 4px #0000003a;
   }
   
+.footerPaymentBottom
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.Tab_Coach tr
+{
+    display: flex;
+    margin: 30px 0 20px 0;
+}
+.Tab_Coach tr td
+{
+    padding: 0 4em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name_coach {
+    --color: #0047ab;
+    font-family: inherit;
+    display: inline-block;
+    width: 8em;
+    height: 1.6em;
+    line-height: 2.5em;
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid var(--color);
+    transition: color .5s;
+    z-index: 1;
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+   }
+   
+   .name_coach:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: var(--color);
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+   }
+   
+   .name_coach:hover {
+    color: #fff;
+   }
+   
+   .name_coach:before {
+    top: 100%;
+    left: 100%;
+    transition: all .7s;
+   }
+   
+   .name_coach:hover:before {
+    top: -30px;
+    left: -30px;
+   }
+   
+   .name_coach:active:before {
+    background: #3a0ca3;
+    transition: background 0s;
+   }
