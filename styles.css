@@ -52,7 +52,6 @@ header nav ul
     text-decoration: none;
     background-color: #f2edde;
     padding: 3px 15px;
-    border-radius: 10px;
 }
 
 /* footer */
@@ -454,12 +453,18 @@ footer
         cursor: pointer;
         font-size: 17px;
    }
+   .LogOut:hover
+   {
+    transition: 1s;
+    background-color: white;
+    color: #0047ab;
+   }
 
    .ProfilPicDiv
    {
         display: flex;
         flex-direction: column;
-        margin: 100px 0 0 35px;
+        margin: 100px 0 0 10%;
    }
    .ProfilPicDiv h1
    {
@@ -469,11 +474,13 @@ footer
    .ChangePic
    {
         margin-top: 20px;
+        display: flex;
+        align-items: center;
    }
    .ChangePic label
    {
         margin-right: 15px;
-        color: rgb(106, 106, 106);
+        color: rgb(55, 55, 55);
    }
    .mainMyProfile
    {
@@ -483,4 +490,85 @@ footer
    {
     display: flex;
     flex-direction: column;
+   }
+   .BrowsePic::file-selector-button
+   {
+    background-color: #0047ab;
+    color: white;
+    border: 1px solid white;
+    padding: 2px 5px;
+   }
+   .BrowsePic::file-selector-button:hover
+   {
+    background-color: white;
+    color: #0047ab;
+    transition: 1s;
+    cursor: pointer;
+   }
+   .PersonalInformation
+   {
+    margin: 150px 0 0 100px;
+   }
+   .PersonalInformation div
+    {
+        margin-bottom: 35px;
+        display: flex;
+        align-items: center;
+   }
+   .PersonalInformation div label
+   {
+    font-size: 1.5rem;
+    width: 200px;
+   }
+   .PersonalInformation div input
+   {
+    background-color: #f2edde;
+    color: #8B8E98;
+    border: 2px solid #8B8E98;
+    font-size: 1.3rem;
+    padding: 2px 5px;
+    width: 300px;
+   }
+   .PersonalInformation div input:focus
+   {
+    background-color: white;
+    outline: 2px solid #8B8E98;
+   }
+   .UpdatePersonalInformation
+   {
+    width: 110px;
+    padding: 10px 0;
+    background-color: #0047ab;
+    color: white;
+    border: none;
+    cursor: pointer;
+   }
+   .UpdatePersonalInformation:hover
+   {
+    background-color: white;
+    color: #0047ab;
+    transition: 1s;
+   }
+   .SessionsFutur
+   {
+    background-color: #0047ab;
+    color: white;
+    padding: 15px 0;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+   }
+   .SessionAl
+   {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    border-bottom: 1px solid white;
+   }
+   .Sessions
+   {
+    margin: 15px 0 0 7%;
    }
