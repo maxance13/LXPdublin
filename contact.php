@@ -12,7 +12,7 @@
     <?php require('.\header.php') ?>
 
     <main>
-        <p class="Home_Rep">> <a href="index.php" class="Home_Rep1">Home</a> > <a href="Contact.php" class="Home_Rep1">Contact</a></p>
+        <p class="Home_Rep">> <a href="index.php" class="Home_Rep1">Home</a> > <a href="contact.php" class="Home_Rep1">Contact</a></p>
 
         <div class="ContactUs">
             <h1>CONTACT US!</h1>
